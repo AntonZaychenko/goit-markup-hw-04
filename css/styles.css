@@ -347,6 +347,7 @@ body {
 }
 
 .items {
+  display: block;
   padding: 12px;
   width: 44px;
   height: 44px;
@@ -354,9 +355,7 @@ body {
   margin-right: 10px;
   
 }
-.items .icon {
-  vertical-align: middle;
-}
+
 .team .icon:hover, .icon:focus {
   fill: #ffffff;
 }
