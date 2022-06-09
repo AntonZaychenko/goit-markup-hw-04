@@ -478,6 +478,12 @@ border-radius: 4px;
 .link:focus {
   color: #2196f3;
 }
+.address-list .links {
+  color: #ffffff;
+}
+.address-list .links:hover, .links:focus {
+  color: #2196f3;
+}
 .address-list .cont {
   color: rgba(255, 255, 255, 0.6);
 }
@@ -515,6 +521,10 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 
 color: #FFFFFF;
+}
+.connect .link:hover, .link:focus {
+  background-color: #2196f3;
+
 }
 .footer address {
   display: flex;
